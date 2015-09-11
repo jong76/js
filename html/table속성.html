@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>table</title>
+	</head>
+	
+	<body>
+		
+	<table border="1" width="100%">
+		
+	<!--테이블 아래 caption 속성 테이블 이름넣기. colgroup로 테이블 비율속성을 정해준다.-->
+		
+		<caption>단가표</caption>
+		
+		<colgroup>
+		<col width="10%"/>
+		<col />
+		<col width="200px"/>
+		</colgroup>
+	<!--테이블 맨위 부분 테이블안에 제목부분에 thead을 넣는다. 글씨가 굵게 나움-->	
+		<thead>
+			<tr>
+			<th scope="col">text</th>
+			<th>text</th>
+			<th>text</th>
+		    </tr>
+		</thead>
+	<!-- thead 바로 아래에 테이블으 맨 아라부분을 넣는다. 시작장애인위한 조치-->		
+		<tfoot>
+		<tr>
+			<td>text</td>
+			<td>text</td>
+			<td>text</td>
+		</tr>
+		</tfoot>
+		
+		<!--테이블의 가운데 부분을  tbody로 구분하여 넣는다.-->	
+		<!--테이블이 세로형식으로 있는 테이블은 thead테그를 따로 없다 그냥 다 <tbody>테이블 바로 아래에 다 넣고 제목td을 th로 한다</tbody>.-->		
+		<tbody>
+			<tr>
+			<td colspan="2">text</td>
+			
+			<td>text</td>
+		</tr>
+		<tr>
+			<td rowspan="2">text</td>
+			<td>textssssss</td>
+			<td>text</td>
+		</tr>
+		<tr>
+			
+			<td>textzxczsdfsafdf</td>
+			<td>text</td>
+		</tr>
+	
+		</tbody>
+		
+	</table>
+			
+	</body>
+</html>
